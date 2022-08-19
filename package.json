@@ -1,0 +1,20 @@
+{
+  "name": "quizappmain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm run start",
+    "server": "cd Backend && npm run dev",
+    "client_install": "cd client && npm install",
+    "server_install": "cd Backend && npm install",
+    "client_build": "cd client && npm run build",
+    "dev": "concurrently \"npm run client\" \"npm run server\"",
+    "setup": "npm run client_install && npm run server_install"
+  },
+  "author": "Swetha",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}

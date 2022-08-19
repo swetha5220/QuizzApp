@@ -1,0 +1,23 @@
+.centerMain{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.titles{
+  margin: 20px;
+    width: 100%;
+    color: #0c0a05;
+    border: rgb(219, 17, 98);
+    text-align: start;
+    text-align: center;
+    font-size: 5em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.background21
+{
+  background-color: rgb(150, 231, 238);
+}
